@@ -1,0 +1,30 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliecerUribe/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "javascript",
+    "fundamentos",
+    "js"
+  ],
+  "author": "Eliecer Uribe <eliecer085@gmail.com> (https://twitter.com/elieceruribe)",
+  "license": "MIT",
+  "homepage": "https://github.com/eliecerUribe/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
